@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: bisque;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex-wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 500px;
+    height: 640px;
+    margin-inline: auto;
+    margin-bottom: 20px;
+    border: 1px black solid;
+    border-radius: 5%;
+    background-color: grey;
+}
+
+.display {
+    height: 130px;
+    width: 400px;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 5%;
+    text-align: right;
+    margin-top: 15px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+}
+
+#input {
+    align-self: flex-end;
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+#output {
+    align-self: flex-start;
+    margin-top: 0;
+}
+
+
+
+.btnSmall {
+    width: 80px;
+    height: 80px;
+    border: 1px black solid;
+    border-radius: 5%;
+    background-color: white;
+    margin-inline: 15px;
+    margin-top: 15px;
+}
+
+.numAndOper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.clearAndDelete {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 45px;
+    margin-top: 15px;
+}
+
+.btnClearDelete {
+    height: 80px;
+    width: 160px;
+    border: 1px black solid;
+    border-radius: 5%;
+    
+}
+
+#btnClear {
+    background-color: bisque;
+}
+
+#btnDelete {
+    background-color: coral;
+}
+
+.btn {
+    font-weight: 700;
+}
